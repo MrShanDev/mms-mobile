@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "点餐",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goods-popup": "/components/goods-popup/goods-popup"
+  }
+}

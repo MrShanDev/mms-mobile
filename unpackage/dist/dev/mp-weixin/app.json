@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/meal/meal",
+    "pages/order/order",
+    "pages/me/me",
+    "pages/webview/webview",
+    "pages/store/store_list/store_list",
+    "pages/goods/pickup_info/pickup_info",
+    "pages/goods/goods_info/goods_info",
+    "pages/goods/confirm_order/confirm_order",
+    "pages/goods/pay_order/pay_order",
+    "pages/goods/order_info/order_info",
+    "pages/users/wallet/wallet",
+    "pages/users/balance/balance",
+    "pages/users/points/points",
+    "pages/users/coupon/coupon",
+    "pages/users/share/share",
+    "pages/users/storage/storage",
+    "pages/extension/apply_delivery/apply_delivery",
+    "pages/users/recharge/recharge",
+    "pages/users/user_info/index",
+    "pages/users/user_address/index",
+    "pages/users/user_setting_address/user_setting_address",
+    "pages/users/setting/setting",
+    "pages/login/login/weixinLoging",
+    "pages/cart/cart",
+    "pages/users/user_collect/user_collect",
+    "pages/extension/help/help",
+    "pages/extension/kefu/kefu",
+    "pages/users/serves/serves",
+    "pages/extension/member/member",
+    "pages/extension/assess/assess",
+    "pages/extension/accept_orders/accept_orders",
+    "pages/extension/partner/partner",
+    "pages/extension/invoice/invoice",
+    "pages/extension/partnership/partnership",
+    "pages/extension/evaluate/evaluate",
+    "pages/extension/add_storage/add_storage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#040404",
+    "selectedColor": "#FB7D02",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tabbar/mms-home.png",
+        "selectedIconPath": "static/tabbar/mms-home-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/meal/meal",
+        "iconPath": "/static/tabbar/mms-meal.png",
+        "selectedIconPath": "static/tabbar/mms-meal-fill.png",
+        "text": "点餐"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "/static/tabbar/mms-order.png",
+        "selectedIconPath": "static/tabbar/mms-order-fill.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/static/tabbar/mms-me.png",
+        "selectedIconPath": "static/tabbar/mms-me-fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": []
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "为了推荐附近热门服务网点"
+    },
+    "scope.userFuzzyLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

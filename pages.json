@@ -1,0 +1,296 @@
+{
+    "pages" : [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/meal/meal",
+			"style": {
+				"navigationBarTitleText": "点餐",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle" : "custom"
+			}
+		},     
+        {
+            "path" : "pages/webview/webview",
+            "style" : {
+                "navigationBarTitleText" : "网页",
+                "enablePullDownRefresh" : false,
+                "navigationStyle" : "custom"
+            }
+		},
+		{
+			"path": "pages/store/store_list/store_list",
+			"style": {
+				"navigationBarTitleText": "门店列表"
+			}
+		},
+		{
+			"path": "pages/goods/pickup_info/pickup_info",
+			"style": {
+				"navigationBarTitleText": "取餐信息",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/goods/goods_info/goods_info",
+			"style": {
+				"navigationBarTitleText": "订单信息",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/goods/confirm_order/confirm_order",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/goods/pay_order/pay_order",
+			"style": {
+				"navigationBarTitleText": "支付订单"
+			}
+		},
+		{
+			"path": "pages/goods/order_info/order_info",
+			"style": {
+				"navigationBarTitleText": "订单信息",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/users/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/users/balance/balance",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/users/points/points",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/users/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/users/share/share",
+			"style": {
+				"navigationBarTitleText": "我的分享"
+			}
+		},
+		{
+			"path": "pages/users/storage/storage",
+			"style": {
+				"navigationBarTitleText": "我的储物",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/extension/apply_delivery/apply_delivery",
+			"style": {
+				"navigationBarTitleText": "申请送餐员",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/users/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "在线充值"
+			}
+		},
+		{
+			"path": "pages/users/user_info/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/users/user_address/index",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		},
+		{
+			"path": "pages/users/user_setting_address/user_setting_address",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/users/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/login/login/weixinLoging",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "微信登录"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/users/user_collect/user_collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/extension/help/help",
+			"style": {
+				"navigationBarTitleText": "我的问题"
+			}
+		},
+		{
+			"path": "pages/extension/kefu/kefu",
+			"style": {
+				"navigationBarTitleText": "客服中心",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/users/serves/serves",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/extension/member/member",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/extension/assess/assess",
+			"style": {
+				"navigationBarTitleText": "我的评价"
+			}
+		},
+		{
+			"path": "pages/extension/accept_orders/accept_orders",
+			"style": {
+				"navigationBarTitleText": "接单"
+			}
+		},
+		{
+			"path": "pages/extension/partner/partner",
+			"style": {
+				"navigationBarTitleText": "我的合伙人",
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/extension/invoice/invoice",
+			"style": {
+				"navigationBarTitleText": "申请发票"
+			}
+		},
+		{
+			"path": "pages/extension/partnership/partnership",
+			"style": {
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/extension/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "我要评价"
+			}
+		},
+		{
+			"path": "pages/extension/add_storage/add_storage",
+			"style": {
+				"navigationBarTitleText": "我要储物"
+			}
+		}
+    ],
+    "easycom" : {
+        "^sumer-pages-(.*)$" : "@/components/sumer-components/pages/$1.vue",
+        "^sumer-(.*)$" : "@/components/sumer-components/$1/$1.vue"
+    },
+    //分包配置
+    "subPackages" : [],
+    // 分包预载配置
+    "preloadRule" : {
+        // 当我们进入了pages/index/index页面以后就会预下载pages_Indexk分包
+        "pages/index/index" : {
+            "network" : "all", //在指定网络下预下载，可选值为：all（不限网络）、wifi（仅wifi下预下载）
+            "packages" : [ ] //进入页面后预下载分包,过个分包逗号分隔
+        }
+    },
+    "tabBar" : {
+        "color": "#040404",
+		"selectedColor": "#FB7D02",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath": "/static/tabbar/mms-home.png",
+                "selectedIconPath": "static/tabbar/mms-home-fill.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/meal/meal",
+                "iconPath": "/static/tabbar/mms-meal.png",
+                "selectedIconPath": "static/tabbar/mms-meal-fill.png",
+                "text" : "点餐"
+            },
+            {
+                "pagePath" : "pages/order/order",
+                "iconPath": "/static/tabbar/mms-order.png",
+                "selectedIconPath": "static/tabbar/mms-order-fill.png",
+                "text" : "订单"
+			},
+            {
+                "pagePath" : "pages/me/me",
+                "iconPath": "/static/tabbar/mms-me.png",
+                "selectedIconPath": "static/tabbar/mms-me-fill.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "",
+        "navigationBarBackgroundColor" : "#fff",
+        "backgroundColor" : "#F8F8F8",
+        "navigationStyle" : "default"
+    },
+    "uniIdRouter" : {}
+}

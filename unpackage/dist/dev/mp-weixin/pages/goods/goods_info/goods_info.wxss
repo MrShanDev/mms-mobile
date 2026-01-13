@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+.goods-info-page.data-v-2b493e2d {
+  min-height: 100vh;
+  background: #F5F5F5;
+  padding-bottom: 300rpx;
+}
+.nav-bar .nav-left .back-icon.data-v-2b493e2d {
+  z-index: 333;
+  position: fixed;
+  top: 100rpx;
+  left: 30rpx;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #2F2F2F;
+}
+.goods-images.data-v-2b493e2d {
+  width: 100%;
+  height: 600rpx;
+}
+.goods-images .swiper.data-v-2b493e2d {
+  width: 100%;
+  height: 600rpx;
+}
+.goods-images .swiper-item.data-v-2b493e2d {
+  width: 100%;
+  height: 100%;
+}
+.goods-images .swiper-item .burger-img.data-v-2b493e2d {
+  width: 100%;
+  height: 100%;
+}
+.goods-header.data-v-2b493e2d {
+  background: #F9F9F9;
+  padding: 32rpx 40rpx;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+}
+.goods-header .goods-title.data-v-2b493e2d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+.goods-header .goods-title .title-text.data-v-2b493e2d {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #2F2F2F;
+}
+.goods-header .goods-title .sales-text.data-v-2b493e2d {
+  font-size: 24rpx;
+  color: #999;
+}
+.goods-header .goods-desc.data-v-2b493e2d {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.spec-section.data-v-2b493e2d {
+  background: #FFF;
+  padding: 32rpx 40rpx;
+  margin-bottom: 20rpx;
+}
+.spec-section .spec-item.data-v-2b493e2d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32rpx;
+}
+.spec-section .spec-item.data-v-2b493e2d:last-child {
+  margin-bottom: 0;
+}
+.spec-section .spec-item .spec-label.data-v-2b493e2d {
+  width: 20%;
+  font-size: 28rpx;
+  color: #2F2F2F;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+.spec-section .spec-item .spec-options.data-v-2b493e2d {
+  width: 80%;
+  display: flex;
+  gap: 35rpx;
+  flex-wrap: wrap;
+}
+.spec-section .spec-item .spec-options .option-btn.data-v-2b493e2d {
+  background: #EFF0F1;
+  color: #030303;
+  font-size: 28rpx;
+  padding: 16rpx 40rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid transparent;
+}
+.spec-section .spec-item .spec-options .option-btn.active.data-v-2b493e2d {
+  background: #F18B31;
+}
+.detail-section.data-v-2b493e2d {
+  background: #FFF;
+  padding: 32rpx 40rpx;
+}
+.detail-section .detail-item.data-v-2b493e2d {
+  margin-bottom: 32rpx;
+}
+.detail-section .detail-item.data-v-2b493e2d:last-child {
+  margin-bottom: 0;
+}
+.detail-section .detail-item .detail-label.data-v-2b493e2d {
+  font-size: 28rpx;
+  color: #2F2F2F;
+  font-weight: 600;
+  margin-bottom: 16rpx;
+}
+.detail-section .detail-item .detail-content.data-v-2b493e2d {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.8;
+}
+.detail-section .detail-item .detail-content .ingredient-tag.data-v-2b493e2d {
+  background: #F7F7F7;
+  color: #333;
+  padding: 6rpx 16rpx;
+  border-radius: 6rpx;
+  margin-right: 12rpx;
+}
+.footer-bar.data-v-2b493e2d {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.1);
+  gap: 24rpx;
+  z-index: 100;
+  padding-bottom: 40rpx;
+}
+.footer-bar .price-box.data-v-2b493e2d {
+  display: flex;
+  flex-direction: column;
+}
+.footer-bar .price-box .price.data-v-2b493e2d {
+  font-size: 42rpx;
+  font-weight: 600;
+  color: #F6403F;
+  margin-bottom: 5rpx;
+}
+.footer-bar .price-box .price-label.data-v-2b493e2d {
+  font-size: 25rpx;
+  color: #5C5B5B;
+}
+.footer-bar .count-control.data-v-2b493e2d {
+  display: flex;
+  align-items: center;
+  gap: 5rpx;
+}
+.footer-bar .count-control .minus-btn.data-v-2b493e2d,
+.footer-bar .count-control .plus-btn.data-v-2b493e2d {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36rpx;
+}
+.footer-bar .count-control .minus-btn.data-v-2b493e2d {
+  border: 2rpx solid #E5E5E5;
+  color: #666;
+}
+.footer-bar .count-control .plus-btn.data-v-2b493e2d {
+  background: #F6403F;
+  color: #FFF;
+}
+.footer-bar .count-control .count.data-v-2b493e2d {
+  font-size: 28rpx;
+  color: #2F2F2F;
+  min-width: 40rpx;
+  text-align: center;
+}
+.footer-bar .action-btns.data-v-2b493e2d {
+  flex: 1;
+  display: flex;
+  gap: 16rpx;
+}
+.footer-bar .action-btns .add-cart-btn.data-v-2b493e2d,
+.footer-bar .action-btns .buy-now-btn.data-v-2b493e2d {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  border-radius: 15rpx;
+  font-size: 28rpx;
+}
+.footer-bar .action-btns .add-cart-btn.data-v-2b493e2d {
+  background: #FFF;
+  color: #F18B31;
+  border: 2rpx solid #F18B31;
+}
+.footer-bar .action-btns .buy-now-btn.data-v-2b493e2d {
+  background: #F18B31;
+  color: #FFF;
+}
