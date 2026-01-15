@@ -1,1 +1,0 @@
-<view class="partnership-page"><view class="tab"><view class="tab-item active"> 成为合伙人 </view><view data-event-opts="{{[['tap',[['navTo',['/pages/extension/partner/partner']]]]]}}" class="tab-item" bindtap="__e"> 我的合伙人 </view></view><view data-event-opts="{{[['tap',[['navTo',['/pages/extension/partner/partner']]]]]}}" class="apply" bindtap="__e"> 申请成为合伙人 </view></view>

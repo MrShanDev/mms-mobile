@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "客服中心",
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
-  }
-}
