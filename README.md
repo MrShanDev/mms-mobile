@@ -6,7 +6,7 @@
    <h1>模块化管理系统</h1>
    <p>MMS · Modular Management System</p>
    <p><strong>mms-mobile · 移动端（uni-app）</strong></p>
-   <p><a href="https://mmsadmin.cn/">📘 在线文档 · mmsadmin.cn</a> · <a href="https://gitee.com/LumeCode/mms-mobile">Gitee</a> · <a href="https://github.com/MrShanDev/mms-mobile">GitHub</a></p>
+   <p><a href="https://mmsadmin.cn/">📘 在线文档 · mmsadmin.cn</a> · <a href="https://gitee.com/MrShanDev/mms-mobile">Gitee</a> · <a href="https://github.com/MrShanDev/mms-mobile">GitHub</a></p>
    <br/>
 </div>
 
@@ -14,7 +14,7 @@
 
 `mms-mobile` 是 **MMS 的移动端应用**，基于 **uni-app（Vue 2）** 开发，一套代码编译到 **App（Android / iOS）**、**微信小程序**、**抖音小程序** 等多端。当前是一个 C 端点餐/会员类应用：首页、点餐、订单、我的四个 Tab 页，含微信登录与网页容器。
 
-- 仓库：<https://gitee.com/LumeCode/mms-mobile>（公开）
+- 仓库：<https://gitee.com/MrShanDev/mms-mobile>（公开）
 - 后端对接：`mms` 开放接口，API 地址集中在 `common/utils.js` 的 `baseUrl`
 
 ---
