@@ -1,4 +1,12 @@
-# mms-mobile (Mobile / uni-app)
+<div align="center">
+   <br/>
+   <a href="https://mmsadmin.cn">
+     <img width="150" src="https://mmsadmin.cn/logo.png" alt="MMS logo">
+   </a>
+   <h1>MMS (Modular Management System)</h1>
+   <p><strong>mms-mobile · Mobile (uni-app)</strong></p>
+   <br/>
+</div>
 
 English | [简体中文](README.md)
 
