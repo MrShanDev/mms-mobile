@@ -5,6 +5,7 @@
    </a>
    <h1>Modular Management System (MMS)</h1>
    <p><strong>mms-mobile · Mobile (uni-app)</strong></p>
+   <p><a href="https://mmsadmin.cn/">📘 Online Docs · mmsadmin.cn</a> · <a href="https://gitee.com/LumeCode/mms-mobile">Gitee</a> · <a href="https://github.com/MrShanDev/mms-mobile">GitHub</a></p>
    <br/>
 </div>
 
